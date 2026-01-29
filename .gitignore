@@ -1,0 +1,37 @@
+############################
+# macOS system files
+############################
+.DS_Store
+**/.DS_Store
+
+############################
+# R / RStudio
+############################
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+############################
+# Data artifacts (DO NOT COMMIT)
+############################
+outputs/
+data_raw/
+data_processed/
+*.rds
+*.csv
+*.tsv
+*.parquet
+*.feather
+
+############################
+# Logs & diagnostics
+############################
+logs/
+*.log
+
+############################
+# Temporary / scratch
+############################
+tmp/
+scratch/
